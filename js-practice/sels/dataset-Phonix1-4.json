@@ -1,0 +1,1870 @@
+{
+  "Sheet1": [
+    {
+      "vocaindex": 1,
+      "englishVoca": "apple",
+      "koreanMean": "사과",
+      "score": -10
+    },
+    {
+      "vocaindex": 2,
+      "englishVoca": "ant",
+      "koreanMean": "개미",
+      "score": -10
+    },
+    {
+      "vocaindex": 3,
+      "englishVoca": "alligator",
+      "koreanMean": "악어",
+      "score": -10
+    },
+    {
+      "vocaindex": 4,
+      "englishVoca": "bear",
+      "koreanMean": "곰",
+      "score": -10
+    },
+    {
+      "vocaindex": 5,
+      "englishVoca": "box",
+      "koreanMean": "박스",
+      "score": -10
+    },
+    {
+      "vocaindex": 6,
+      "englishVoca": "bee",
+      "koreanMean": "벌",
+      "score": -10
+    },
+    {
+      "vocaindex": 7,
+      "englishVoca": "cat",
+      "koreanMean": "고양이",
+      "score": -10
+    },
+    {
+      "vocaindex": 8,
+      "englishVoca": "car",
+      "koreanMean": "자동차",
+      "score": -10
+    },
+    {
+      "vocaindex": 9,
+      "englishVoca": "cot",
+      "koreanMean": "아기 침대",
+      "score": -10
+    },
+    {
+      "vocaindex": 10,
+      "englishVoca": "dog",
+      "koreanMean": "강아지",
+      "score": -10
+    },
+    {
+      "vocaindex": 11,
+      "englishVoca": "dad",
+      "koreanMean": "아빠",
+      "score": -10
+    },
+    {
+      "vocaindex": 12,
+      "englishVoca": "door",
+      "koreanMean": "문",
+      "score": -10
+    },
+    {
+      "vocaindex": 13,
+      "englishVoca": "elephant",
+      "koreanMean": "코끼리",
+      "score": -10
+    },
+    {
+      "vocaindex": 14,
+      "englishVoca": "egg",
+      "koreanMean": "계란",
+      "score": -10
+    },
+    {
+      "vocaindex": 15,
+      "englishVoca": "eight",
+      "koreanMean": "여덟",
+      "score": -10
+    },
+    {
+      "vocaindex": 16,
+      "englishVoca": "fox",
+      "koreanMean": "여우",
+      "score": -10
+    },
+    {
+      "vocaindex": 17,
+      "englishVoca": "fish",
+      "koreanMean": "물고기",
+      "score": -10
+    },
+    {
+      "vocaindex": 18,
+      "englishVoca": "fan",
+      "koreanMean": "선풍기",
+      "score": -10
+    },
+    {
+      "vocaindex": 19,
+      "englishVoca": "girl",
+      "koreanMean": "여자",
+      "score": -10
+    },
+    {
+      "vocaindex": 20,
+      "englishVoca": "goat",
+      "koreanMean": "염소",
+      "score": -10
+    },
+    {
+      "vocaindex": 21,
+      "englishVoca": "gift",
+      "koreanMean": "선물",
+      "score": -10
+    },
+    {
+      "vocaindex": 22,
+      "englishVoca": "hat",
+      "koreanMean": "모자",
+      "score": -10
+    },
+    {
+      "vocaindex": 23,
+      "englishVoca": "horse",
+      "koreanMean": "말",
+      "score": -10
+    },
+    {
+      "vocaindex": 24,
+      "englishVoca": "hand",
+      "koreanMean": "손",
+      "score": -10
+    },
+    {
+      "vocaindex": 25,
+      "englishVoca": "insect ",
+      "koreanMean": "곤충",
+      "score": -10
+    },
+    {
+      "vocaindex": 26,
+      "englishVoca": "iguana",
+      "koreanMean": "이구아나",
+      "score": -10
+    },
+    {
+      "vocaindex": 27,
+      "englishVoca": "igloo",
+      "koreanMean": "이글루",
+      "score": -10
+    },
+    {
+      "vocaindex": 28,
+      "englishVoca": "jam",
+      "koreanMean": "잼",
+      "score": -10
+    },
+    {
+      "vocaindex": 29,
+      "englishVoca": "jet",
+      "koreanMean": "제트기",
+      "score": -10
+    },
+    {
+      "vocaindex": 30,
+      "englishVoca": "juice",
+      "koreanMean": "주스",
+      "score": -10
+    },
+    {
+      "vocaindex": 31,
+      "englishVoca": "king",
+      "koreanMean": "왕",
+      "score": -10
+    },
+    {
+      "vocaindex": 32,
+      "englishVoca": "key",
+      "koreanMean": "열쇠",
+      "score": -10
+    },
+    {
+      "vocaindex": 33,
+      "englishVoca": "koala",
+      "koreanMean": "코알라",
+      "score": -10
+    },
+    {
+      "vocaindex": 34,
+      "englishVoca": "lion",
+      "koreanMean": "사자",
+      "score": -10
+    },
+    {
+      "vocaindex": 35,
+      "englishVoca": "lemon",
+      "koreanMean": "레몬",
+      "score": -10
+    },
+    {
+      "vocaindex": 36,
+      "englishVoca": "lamp",
+      "koreanMean": "램프,등",
+      "score": -10
+    },
+    {
+      "vocaindex": 37,
+      "englishVoca": "mom",
+      "koreanMean": "엄마",
+      "score": -10
+    },
+    {
+      "vocaindex": 38,
+      "englishVoca": "milk",
+      "koreanMean": "우유",
+      "score": -10
+    },
+    {
+      "vocaindex": 39,
+      "englishVoca": "mitten",
+      "koreanMean": "벙어리장갑",
+      "score": -10
+    },
+    {
+      "vocaindex": 40,
+      "englishVoca": "nurse",
+      "koreanMean": "간호사",
+      "score": -10
+    },
+    {
+      "vocaindex": 41,
+      "englishVoca": "neck",
+      "koreanMean": "목",
+      "score": -10
+    },
+    {
+      "vocaindex": 42,
+      "englishVoca": "net",
+      "koreanMean": "그물",
+      "score": -10
+    },
+    {
+      "vocaindex": 43,
+      "englishVoca": "otter",
+      "koreanMean": "수달",
+      "score": -10
+    },
+    {
+      "vocaindex": 44,
+      "englishVoca": "octopus",
+      "koreanMean": "문어",
+      "score": -10
+    },
+    {
+      "vocaindex": 45,
+      "englishVoca": "ox",
+      "koreanMean": "소",
+      "score": -10
+    },
+    {
+      "vocaindex": 46,
+      "englishVoca": "pen",
+      "koreanMean": "펜",
+      "score": -10
+    },
+    {
+      "vocaindex": 47,
+      "englishVoca": "pot",
+      "koreanMean": "냄비",
+      "score": -10
+    },
+    {
+      "vocaindex": 48,
+      "englishVoca": "pink",
+      "koreanMean": "핑크색",
+      "score": -10
+    },
+    {
+      "vocaindex": 49,
+      "englishVoca": "queen",
+      "koreanMean": "여왕",
+      "score": -10
+    },
+    {
+      "vocaindex": 50,
+      "englishVoca": "quilt",
+      "koreanMean": "누비 이불",
+      "score": -10
+    },
+    {
+      "vocaindex": 51,
+      "englishVoca": "quarter",
+      "koreanMean": "25센트 동전",
+      "score": -10
+    },
+    {
+      "vocaindex": 52,
+      "englishVoca": "red",
+      "koreanMean": "빨간색",
+      "score": -10
+    },
+    {
+      "vocaindex": 53,
+      "englishVoca": "ring",
+      "koreanMean": "반지",
+      "score": -10
+    },
+    {
+      "vocaindex": 54,
+      "englishVoca": "rock",
+      "koreanMean": "바위",
+      "score": -10
+    },
+    {
+      "vocaindex": 55,
+      "englishVoca": "soap",
+      "koreanMean": "비누",
+      "score": -10
+    },
+    {
+      "vocaindex": 56,
+      "englishVoca": "sock",
+      "koreanMean": "양말",
+      "score": -10
+    },
+    {
+      "vocaindex": 57,
+      "englishVoca": "sun",
+      "koreanMean": "태양",
+      "score": -10
+    },
+    {
+      "vocaindex": 58,
+      "englishVoca": "toy",
+      "koreanMean": "장난감",
+      "score": -10
+    },
+    {
+      "vocaindex": 59,
+      "englishVoca": "tiger",
+      "koreanMean": "호랑이",
+      "score": -10
+    },
+    {
+      "vocaindex": 60,
+      "englishVoca": "toe",
+      "koreanMean": "발가락",
+      "score": -10
+    },
+    {
+      "vocaindex": 61,
+      "englishVoca": "up",
+      "koreanMean": "위에",
+      "score": -10
+    },
+    {
+      "vocaindex": 62,
+      "englishVoca": "under",
+      "koreanMean": "아래",
+      "score": -10
+    },
+    {
+      "vocaindex": 63,
+      "englishVoca": "umbrella",
+      "koreanMean": "우산",
+      "score": -10
+    },
+    {
+      "vocaindex": 64,
+      "englishVoca": "van",
+      "koreanMean": "화물차",
+      "score": -10
+    },
+    {
+      "vocaindex": 65,
+      "englishVoca": "vet",
+      "koreanMean": "수의사",
+      "score": -10
+    },
+    {
+      "vocaindex": 66,
+      "englishVoca": "vacuum",
+      "koreanMean": "진공청소기",
+      "score": -10
+    },
+    {
+      "vocaindex": 67,
+      "englishVoca": "wolf",
+      "koreanMean": "늑대",
+      "score": -10
+    },
+    {
+      "vocaindex": 68,
+      "englishVoca": "wall",
+      "koreanMean": "벽",
+      "score": -10
+    },
+    {
+      "vocaindex": 69,
+      "englishVoca": "wagon",
+      "koreanMean": "4륜마차",
+      "score": -10
+    },
+    {
+      "vocaindex": 70,
+      "englishVoca": "fox",
+      "koreanMean": "늑대",
+      "score": -10
+    },
+    {
+      "vocaindex": 71,
+      "englishVoca": "box",
+      "koreanMean": "박스",
+      "score": -10
+    },
+    {
+      "vocaindex": 72,
+      "englishVoca": "six",
+      "koreanMean": "여섯",
+      "score": -10
+    },
+    {
+      "vocaindex": 73,
+      "englishVoca": "yacht",
+      "koreanMean": "요트",
+      "score": -10
+    },
+    {
+      "vocaindex": 74,
+      "englishVoca": "yellow",
+      "koreanMean": "노란색",
+      "score": -10
+    },
+    {
+      "vocaindex": 75,
+      "englishVoca": "yarn",
+      "koreanMean": "실",
+      "score": -10
+    },
+    {
+      "vocaindex": 76,
+      "englishVoca": "zebra",
+      "koreanMean": "얼룩말",
+      "score": -10
+    },
+    {
+      "vocaindex": 77,
+      "englishVoca": "zipper",
+      "koreanMean": "지퍼",
+      "score": -10
+    },
+    {
+      "vocaindex": 78,
+      "englishVoca": "zoo",
+      "koreanMean": "동물원",
+      "score": -10
+    },
+    {
+      "vocaindex": 79,
+      "englishVoca": "can",
+      "koreanMean": "깡통",
+      "score": -10
+    },
+    {
+      "vocaindex": 80,
+      "englishVoca": "man",
+      "koreanMean": "남자",
+      "score": -10
+    },
+    {
+      "vocaindex": 81,
+      "englishVoca": "fan",
+      "koreanMean": "선풍기",
+      "score": -10
+    },
+    {
+      "vocaindex": 82,
+      "englishVoca": "pan",
+      "koreanMean": "냄비",
+      "score": -10
+    },
+    {
+      "vocaindex": 83,
+      "englishVoca": "cat",
+      "koreanMean": "고양이",
+      "score": -10
+    },
+    {
+      "vocaindex": 84,
+      "englishVoca": "rat",
+      "koreanMean": "쥐",
+      "score": -10
+    },
+    {
+      "vocaindex": 85,
+      "englishVoca": "bat",
+      "koreanMean": "박쥐",
+      "score": -10
+    },
+    {
+      "vocaindex": 86,
+      "englishVoca": "hat",
+      "koreanMean": "모자",
+      "score": -10
+    },
+    {
+      "vocaindex": 87,
+      "englishVoca": "ham",
+      "koreanMean": "햄",
+      "score": -10
+    },
+    {
+      "vocaindex": 88,
+      "englishVoca": "jam",
+      "koreanMean": "잼",
+      "score": -10
+    },
+    {
+      "vocaindex": 89,
+      "englishVoca": "dam",
+      "koreanMean": "댐",
+      "score": -10
+    },
+    {
+      "vocaindex": 90,
+      "englishVoca": "ram",
+      "koreanMean": "양",
+      "score": -10
+    },
+    {
+      "vocaindex": 91,
+      "englishVoca": "cap",
+      "koreanMean": "모자",
+      "score": -10
+    },
+    {
+      "vocaindex": 92,
+      "englishVoca": "map",
+      "koreanMean": "미도",
+      "score": -10
+    },
+    {
+      "vocaindex": 93,
+      "englishVoca": "lap",
+      "koreanMean": "무릎",
+      "score": -10
+    },
+    {
+      "vocaindex": 94,
+      "englishVoca": "tap",
+      "koreanMean": "박자를 맞추다",
+      "score": 10
+    },
+    {
+      "vocaindex": 95,
+      "englishVoca": "hen",
+      "koreanMean": "암탉",
+      "score": -10
+    },
+    {
+      "vocaindex": 96,
+      "englishVoca": "men",
+      "koreanMean": "남자",
+      "score": -10
+    },
+    {
+      "vocaindex": 97,
+      "englishVoca": "pen",
+      "koreanMean": "펜",
+      "score": -10
+    },
+    {
+      "vocaindex": 98,
+      "englishVoca": "ten",
+      "koreanMean": "열,십",
+      "score": -10
+    },
+    {
+      "vocaindex": 99,
+      "englishVoca": "pet",
+      "koreanMean": "애완동물",
+      "score": -10
+    },
+    {
+      "vocaindex": 100,
+      "englishVoca": "wet",
+      "koreanMean": "젖은",
+      "score": -10
+    },
+    {
+      "vocaindex": 101,
+      "englishVoca": "jet",
+      "koreanMean": "제트기",
+      "score": -10
+    },
+    {
+      "vocaindex": 102,
+      "englishVoca": "net",
+      "koreanMean": "그물",
+      "score": -10
+    },
+    {
+      "vocaindex": 103,
+      "englishVoca": "bed",
+      "koreanMean": "침대",
+      "score": -10
+    },
+    {
+      "vocaindex": 104,
+      "englishVoca": "red",
+      "koreanMean": "빨간색",
+      "score": -10
+    },
+    {
+      "vocaindex": 105,
+      "englishVoca": "wed",
+      "koreanMean": "결혼하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 106,
+      "englishVoca": "ted",
+      "koreanMean": "테드(남자이름)",
+      "score": -10
+    },
+    {
+      "vocaindex": 107,
+      "englishVoca": "leg",
+      "koreanMean": "다리",
+      "score": -10
+    },
+    {
+      "vocaindex": 108,
+      "englishVoca": "keg",
+      "koreanMean": "작은통",
+      "score": -10
+    },
+    {
+      "vocaindex": 109,
+      "englishVoca": "beg",
+      "koreanMean": "애원하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 110,
+      "englishVoca": "egg",
+      "koreanMean": "계란",
+      "score": -10
+    },
+    {
+      "vocaindex": 111,
+      "englishVoca": "pig",
+      "koreanMean": "돼지",
+      "score": -10
+    },
+    {
+      "vocaindex": 112,
+      "englishVoca": "big",
+      "koreanMean": "큰",
+      "score": -10
+    },
+    {
+      "vocaindex": 113,
+      "englishVoca": "fig",
+      "koreanMean": "무화과",
+      "score": -10
+    },
+    {
+      "vocaindex": 114,
+      "englishVoca": "dig",
+      "koreanMean": "땅을 파다",
+      "score": 10
+    },
+    {
+      "vocaindex": 115,
+      "englishVoca": "bin",
+      "koreanMean": "쓰레기통",
+      "score": -10
+    },
+    {
+      "vocaindex": 116,
+      "englishVoca": "win",
+      "koreanMean": "이기다",
+      "score": 10
+    },
+    {
+      "vocaindex": 117,
+      "englishVoca": "tin",
+      "koreanMean": "깡통",
+      "score": -10
+    },
+    {
+      "vocaindex": 118,
+      "englishVoca": "fin",
+      "koreanMean": "지느러미",
+      "score": -10
+    },
+    {
+      "vocaindex": 119,
+      "englishVoca": "sit",
+      "koreanMean": "앉다",
+      "score": 10
+    },
+    {
+      "vocaindex": 120,
+      "englishVoca": "kit",
+      "koreanMean": "장비세트",
+      "score": -10
+    },
+    {
+      "vocaindex": 121,
+      "englishVoca": "hit",
+      "koreanMean": "때리다",
+      "score": 10
+    },
+    {
+      "vocaindex": 122,
+      "englishVoca": "pit",
+      "koreanMean": "구덩이",
+      "score": -10
+    },
+    {
+      "vocaindex": 123,
+      "englishVoca": "sip",
+      "koreanMean": "한 모금",
+      "score": -10
+    },
+    {
+      "vocaindex": 124,
+      "englishVoca": "zip",
+      "koreanMean": "지퍼",
+      "score": -10
+    },
+    {
+      "vocaindex": 125,
+      "englishVoca": "rip",
+      "koreanMean": "찢다",
+      "score": 10
+    },
+    {
+      "vocaindex": 126,
+      "englishVoca": "nip",
+      "koreanMean": "꼬집다",
+      "score": 10
+    },
+    {
+      "vocaindex": 127,
+      "englishVoca": "jog",
+      "koreanMean": "뛰다",
+      "score": 10
+    },
+    {
+      "vocaindex": 128,
+      "englishVoca": "fog",
+      "koreanMean": "안개",
+      "score": -10
+    },
+    {
+      "vocaindex": 129,
+      "englishVoca": "log",
+      "koreanMean": "통나무",
+      "score": -10
+    },
+    {
+      "vocaindex": 130,
+      "englishVoca": "top",
+      "koreanMean": "팽이",
+      "score": -10
+    },
+    {
+      "vocaindex": 131,
+      "englishVoca": "cop",
+      "koreanMean": "경찰",
+      "score": -10
+    },
+    {
+      "vocaindex": 132,
+      "englishVoca": "mop",
+      "koreanMean": "대걸레",
+      "score": -10
+    },
+    {
+      "vocaindex": 133,
+      "englishVoca": "hop",
+      "koreanMean": "점프",
+      "score": -10
+    },
+    {
+      "vocaindex": 134,
+      "englishVoca": "pot",
+      "koreanMean": "냄비",
+      "score": -10
+    },
+    {
+      "vocaindex": 135,
+      "englishVoca": "dot",
+      "koreanMean": "점",
+      "score": -10
+    },
+    {
+      "vocaindex": 136,
+      "englishVoca": "hot",
+      "koreanMean": "뜨거운",
+      "score": -10
+    },
+    {
+      "vocaindex": 137,
+      "englishVoca": "fox",
+      "koreanMean": "여우",
+      "score": -10
+    },
+    {
+      "vocaindex": 138,
+      "englishVoca": "box",
+      "koreanMean": "박스",
+      "score": -10
+    },
+    {
+      "vocaindex": 139,
+      "englishVoca": "ox",
+      "koreanMean": "소",
+      "score": -10
+    },
+    {
+      "vocaindex": 140,
+      "englishVoca": "tub",
+      "koreanMean": "욕조",
+      "score": -10
+    },
+    {
+      "vocaindex": 141,
+      "englishVoca": "cub",
+      "koreanMean": "새끼 곰",
+      "score": -10
+    },
+    {
+      "vocaindex": 142,
+      "englishVoca": "rub",
+      "koreanMean": "문지르다",
+      "score": 10
+    },
+    {
+      "vocaindex": 143,
+      "englishVoca": "bug",
+      "koreanMean": "벌레",
+      "score": -10
+    },
+    {
+      "vocaindex": 144,
+      "englishVoca": "rug",
+      "koreanMean": "카페트",
+      "score": -10
+    },
+    {
+      "vocaindex": 145,
+      "englishVoca": "hug",
+      "koreanMean": "포옹하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 146,
+      "englishVoca": "tug",
+      "koreanMean": "잡아 당기다",
+      "score": 10
+    },
+    {
+      "vocaindex": 147,
+      "englishVoca": "sun",
+      "koreanMean": "태양",
+      "score": -10
+    },
+    {
+      "vocaindex": 148,
+      "englishVoca": "bun",
+      "koreanMean": "빵",
+      "score": -10
+    },
+    {
+      "vocaindex": 149,
+      "englishVoca": "run",
+      "koreanMean": "뛰다",
+      "score": 10
+    },
+    {
+      "vocaindex": 150,
+      "englishVoca": "fun",
+      "koreanMean": "재미있는",
+      "score": -10
+    },
+    {
+      "vocaindex": 151,
+      "englishVoca": "nut",
+      "koreanMean": "견과류",
+      "score": -10
+    },
+    {
+      "vocaindex": 152,
+      "englishVoca": "hut",
+      "koreanMean": "오두막",
+      "score": -10
+    },
+    {
+      "vocaindex": 153,
+      "englishVoca": "cut",
+      "koreanMean": "자르다",
+      "score": 10
+    },
+    {
+      "vocaindex": 154,
+      "englishVoca": "cape",
+      "koreanMean": "망토",
+      "score": -10
+    },
+    {
+      "vocaindex": 155,
+      "englishVoca": "tape",
+      "koreanMean": "테이프",
+      "score": -10
+    },
+    {
+      "vocaindex": 156,
+      "englishVoca": "cake",
+      "koreanMean": "케익",
+      "score": -10
+    },
+    {
+      "vocaindex": 157,
+      "englishVoca": "bake",
+      "koreanMean": "굽다",
+      "score": 10
+    },
+    {
+      "vocaindex": 158,
+      "englishVoca": "vase",
+      "koreanMean": "꽃병",
+      "score": -10
+    },
+    {
+      "vocaindex": 159,
+      "englishVoca": "case",
+      "koreanMean": "상자",
+      "score": -10
+    },
+    {
+      "vocaindex": 160,
+      "englishVoca": "name",
+      "koreanMean": "이름",
+      "score": -10
+    },
+    {
+      "vocaindex": 161,
+      "englishVoca": "game",
+      "koreanMean": "게임",
+      "score": -10
+    },
+    {
+      "vocaindex": 162,
+      "englishVoca": "pine",
+      "koreanMean": "소나무",
+      "score": -10
+    },
+    {
+      "vocaindex": 163,
+      "englishVoca": "nine",
+      "koreanMean": "아홉",
+      "score": -10
+    },
+    {
+      "vocaindex": 164,
+      "englishVoca": "five",
+      "koreanMean": "다섯",
+      "score": -10
+    },
+    {
+      "vocaindex": 165,
+      "englishVoca": "hive",
+      "koreanMean": "벌집",
+      "score": -10
+    },
+    {
+      "vocaindex": 166,
+      "englishVoca": "bike",
+      "koreanMean": "자전거",
+      "score": -10
+    },
+    {
+      "vocaindex": 167,
+      "englishVoca": "hike",
+      "koreanMean": "등산하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 168,
+      "englishVoca": "bite",
+      "koreanMean": "물다",
+      "score": 10
+    },
+    {
+      "vocaindex": 169,
+      "englishVoca": "kite",
+      "koreanMean": "연",
+      "score": -10
+    },
+    {
+      "vocaindex": 170,
+      "englishVoca": "hope",
+      "koreanMean": "희망",
+      "score": -10
+    },
+    {
+      "vocaindex": 171,
+      "englishVoca": "rope",
+      "koreanMean": "밧줄",
+      "score": -10
+    },
+    {
+      "vocaindex": 172,
+      "englishVoca": "nose",
+      "koreanMean": "코",
+      "score": -10
+    },
+    {
+      "vocaindex": 173,
+      "englishVoca": "rose",
+      "koreanMean": "장미",
+      "score": -10
+    },
+    {
+      "vocaindex": 174,
+      "englishVoca": "cone",
+      "koreanMean": "원뿔, 콘",
+      "score": -10
+    },
+    {
+      "vocaindex": 175,
+      "englishVoca": "bone",
+      "koreanMean": "뼈",
+      "score": -10
+    },
+    {
+      "vocaindex": 176,
+      "englishVoca": "hole",
+      "koreanMean": "구멍",
+      "score": -10
+    },
+    {
+      "vocaindex": 177,
+      "englishVoca": "mole",
+      "koreanMean": "두더지",
+      "score": -10
+    },
+    {
+      "vocaindex": 178,
+      "englishVoca": "cube",
+      "koreanMean": "네모",
+      "score": -10
+    },
+    {
+      "vocaindex": 179,
+      "englishVoca": "tube",
+      "koreanMean": "튜브",
+      "score": -10
+    },
+    {
+      "vocaindex": 180,
+      "englishVoca": "june",
+      "koreanMean": "6월",
+      "score": -10
+    },
+    {
+      "vocaindex": 181,
+      "englishVoca": "tune",
+      "koreanMean": "곡",
+      "score": -10
+    },
+    {
+      "vocaindex": 182,
+      "englishVoca": "cute",
+      "koreanMean": "귀여운",
+      "score": -10
+    },
+    {
+      "vocaindex": 183,
+      "englishVoca": "mute",
+      "koreanMean": "무음",
+      "score": -10
+    },
+    {
+      "vocaindex": 184,
+      "englishVoca": "mule",
+      "koreanMean": "노새",
+      "score": -10
+    },
+    {
+      "vocaindex": 185,
+      "englishVoca": "huge",
+      "koreanMean": "엄청 큰",
+      "score": -10
+    },
+    {
+      "vocaindex": 186,
+      "englishVoca": "bee",
+      "koreanMean": "벌집",
+      "score": -10
+    },
+    {
+      "vocaindex": 187,
+      "englishVoca": "seed",
+      "koreanMean": "씨앗",
+      "score": -10
+    },
+    {
+      "vocaindex": 188,
+      "englishVoca": "tree",
+      "koreanMean": "나무",
+      "score": -10
+    },
+    {
+      "vocaindex": 189,
+      "englishVoca": "green",
+      "koreanMean": "초록색",
+      "score": -10
+    },
+    {
+      "vocaindex": 190,
+      "englishVoca": "sea",
+      "koreanMean": "바다",
+      "score": -10
+    },
+    {
+      "vocaindex": 191,
+      "englishVoca": "pea",
+      "koreanMean": "완두콩",
+      "score": -10
+    },
+    {
+      "vocaindex": 192,
+      "englishVoca": "meat",
+      "koreanMean": "고기",
+      "score": -10
+    },
+    {
+      "vocaindex": 193,
+      "englishVoca": "read",
+      "koreanMean": "읽다",
+      "score": 10
+    },
+    {
+      "vocaindex": 194,
+      "englishVoca": "rain",
+      "koreanMean": "비",
+      "score": -10
+    },
+    {
+      "vocaindex": 195,
+      "englishVoca": "mail",
+      "koreanMean": "우편",
+      "score": -10
+    },
+    {
+      "vocaindex": 196,
+      "englishVoca": "tail",
+      "koreanMean": "꼬리",
+      "score": -10
+    },
+    {
+      "vocaindex": 197,
+      "englishVoca": "sail",
+      "koreanMean": "항해하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 198,
+      "englishVoca": "may",
+      "koreanMean": "5월",
+      "score": -10
+    },
+    {
+      "vocaindex": 199,
+      "englishVoca": "day",
+      "koreanMean": "낮",
+      "score": -10
+    },
+    {
+      "vocaindex": 200,
+      "englishVoca": "play",
+      "koreanMean": "놀다",
+      "score": 10
+    },
+    {
+      "vocaindex": 201,
+      "englishVoca": "gray",
+      "koreanMean": "회색",
+      "score": -10
+    },
+    {
+      "vocaindex": 202,
+      "englishVoca": "boat",
+      "koreanMean": "배",
+      "score": -10
+    },
+    {
+      "vocaindex": 203,
+      "englishVoca": "goat",
+      "koreanMean": "염소",
+      "score": -10
+    },
+    {
+      "vocaindex": 204,
+      "englishVoca": "road",
+      "koreanMean": "도로",
+      "score": -10
+    },
+    {
+      "vocaindex": 205,
+      "englishVoca": "toad",
+      "koreanMean": "두꺼비",
+      "score": -10
+    },
+    {
+      "vocaindex": 206,
+      "englishVoca": "bowl",
+      "koreanMean": "그릇",
+      "score": -10
+    },
+    {
+      "vocaindex": 207,
+      "englishVoca": "snow",
+      "koreanMean": "눈",
+      "score": -10
+    },
+    {
+      "vocaindex": 208,
+      "englishVoca": "blow",
+      "koreanMean": "불다",
+      "score": 10
+    },
+    {
+      "vocaindex": 209,
+      "englishVoca": "window",
+      "koreanMean": "창문",
+      "score": -10
+    },
+    {
+      "vocaindex": 210,
+      "englishVoca": "pie",
+      "koreanMean": "파이",
+      "score": -10
+    },
+    {
+      "vocaindex": 211,
+      "englishVoca": "tie",
+      "koreanMean": "묶다",
+      "score": 10
+    },
+    {
+      "vocaindex": 212,
+      "englishVoca": "lie",
+      "koreanMean": "눕다",
+      "score": 10
+    },
+    {
+      "vocaindex": 213,
+      "englishVoca": "july",
+      "koreanMean": "7월",
+      "score": -10
+    },
+    {
+      "vocaindex": 214,
+      "englishVoca": "cry",
+      "koreanMean": "울다",
+      "score": 10
+    },
+    {
+      "vocaindex": 215,
+      "englishVoca": "fly",
+      "koreanMean": "날다",
+      "score": 10
+    },
+    {
+      "vocaindex": 216,
+      "englishVoca": "sky",
+      "koreanMean": "하늘",
+      "score": -10
+    },
+    {
+      "vocaindex": 217,
+      "englishVoca": "car",
+      "koreanMean": "자동차",
+      "score": -10
+    },
+    {
+      "vocaindex": 218,
+      "englishVoca": "star",
+      "koreanMean": "별",
+      "score": -10
+    },
+    {
+      "vocaindex": 219,
+      "englishVoca": "park",
+      "koreanMean": "공원",
+      "score": -10
+    },
+    {
+      "vocaindex": 220,
+      "englishVoca": "barn",
+      "koreanMean": "외양간",
+      "score": -10
+    },
+    {
+      "vocaindex": 221,
+      "englishVoca": "fork",
+      "koreanMean": "포크",
+      "score": -10
+    },
+    {
+      "vocaindex": 222,
+      "englishVoca": "horse",
+      "koreanMean": "말",
+      "score": -10
+    },
+    {
+      "vocaindex": 223,
+      "englishVoca": "corn",
+      "koreanMean": "옥수수",
+      "score": -10
+    },
+    {
+      "vocaindex": 224,
+      "englishVoca": "horn",
+      "koreanMean": "나팔",
+      "score": -10
+    },
+    {
+      "vocaindex": 225,
+      "englishVoca": "bird",
+      "koreanMean": "새",
+      "score": -10
+    },
+    {
+      "vocaindex": 226,
+      "englishVoca": "girl",
+      "koreanMean": "여자",
+      "score": -10
+    },
+    {
+      "vocaindex": 227,
+      "englishVoca": "skirt",
+      "koreanMean": "치마",
+      "score": -10
+    },
+    {
+      "vocaindex": 228,
+      "englishVoca": "shirt",
+      "koreanMean": "셔츠,남방",
+      "score": -10
+    },
+    {
+      "vocaindex": 229,
+      "englishVoca": "letter",
+      "koreanMean": "편지",
+      "score": -10
+    },
+    {
+      "vocaindex": 230,
+      "englishVoca": "soccer",
+      "koreanMean": "축구",
+      "score": -10
+    },
+    {
+      "vocaindex": 231,
+      "englishVoca": "summer",
+      "koreanMean": "여름",
+      "score": -10
+    },
+    {
+      "vocaindex": 232,
+      "englishVoca": "teacher",
+      "koreanMean": "선생님",
+      "score": -10
+    },
+    {
+      "vocaindex": 233,
+      "englishVoca": "clap",
+      "koreanMean": "박수",
+      "score": -10
+    },
+    {
+      "vocaindex": 234,
+      "englishVoca": "clock",
+      "koreanMean": "시계",
+      "score": -10
+    },
+    {
+      "vocaindex": 235,
+      "englishVoca": "flag",
+      "koreanMean": "깃발",
+      "score": -10
+    },
+    {
+      "vocaindex": 236,
+      "englishVoca": "flute",
+      "koreanMean": "플루트",
+      "score": -10
+    },
+    {
+      "vocaindex": 237,
+      "englishVoca": "glass",
+      "koreanMean": "유리",
+      "score": -10
+    },
+    {
+      "vocaindex": 238,
+      "englishVoca": "glove",
+      "koreanMean": "장갑",
+      "score": -10
+    },
+    {
+      "vocaindex": 239,
+      "englishVoca": "plane",
+      "koreanMean": "비행기",
+      "score": -10
+    },
+    {
+      "vocaindex": 240,
+      "englishVoca": "plum",
+      "koreanMean": "자두",
+      "score": -10
+    },
+    {
+      "vocaindex": 241,
+      "englishVoca": "crab",
+      "koreanMean": "게",
+      "score": -10
+    },
+    {
+      "vocaindex": 242,
+      "englishVoca": "crawl",
+      "koreanMean": "기어가다",
+      "score": 10
+    },
+    {
+      "vocaindex": 243,
+      "englishVoca": "drum",
+      "koreanMean": "드럼",
+      "score": -10
+    },
+    {
+      "vocaindex": 244,
+      "englishVoca": "drive",
+      "koreanMean": "운전하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 245,
+      "englishVoca": "frog",
+      "koreanMean": "개구리",
+      "score": -10
+    },
+    {
+      "vocaindex": 246,
+      "englishVoca": "friend",
+      "koreanMean": "친구",
+      "score": -10
+    },
+    {
+      "vocaindex": 247,
+      "englishVoca": "tree",
+      "koreanMean": "나무",
+      "score": -10
+    },
+    {
+      "vocaindex": 248,
+      "englishVoca": "truck",
+      "koreanMean": "트럭",
+      "score": -10
+    },
+    {
+      "vocaindex": 249,
+      "englishVoca": "sky",
+      "koreanMean": "하늘",
+      "score": -10
+    },
+    {
+      "vocaindex": 250,
+      "englishVoca": "skate",
+      "koreanMean": "스케이트",
+      "score": -10
+    },
+    {
+      "vocaindex": 251,
+      "englishVoca": "snow",
+      "koreanMean": "눈",
+      "score": -10
+    },
+    {
+      "vocaindex": 252,
+      "englishVoca": "snack",
+      "koreanMean": "과자",
+      "score": -10
+    },
+    {
+      "vocaindex": 253,
+      "englishVoca": "star",
+      "koreanMean": "별",
+      "score": -10
+    },
+    {
+      "vocaindex": 254,
+      "englishVoca": "stone",
+      "koreanMean": "돌",
+      "score": -10
+    },
+    {
+      "vocaindex": 255,
+      "englishVoca": "swim",
+      "koreanMean": "수영하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 256,
+      "englishVoca": "sweater",
+      "koreanMean": "스웨터",
+      "score": -10
+    },
+    {
+      "vocaindex": 257,
+      "englishVoca": "shirt",
+      "koreanMean": "남방, 셔츠",
+      "score": -10
+    },
+    {
+      "vocaindex": 258,
+      "englishVoca": "shop",
+      "koreanMean": "상점",
+      "score": -10
+    },
+    {
+      "vocaindex": 259,
+      "englishVoca": "wash",
+      "koreanMean": "씻다",
+      "score": 10
+    },
+    {
+      "vocaindex": 260,
+      "englishVoca": "brush",
+      "koreanMean": "빗다",
+      "score": 10
+    },
+    {
+      "vocaindex": 261,
+      "englishVoca": "cheese",
+      "koreanMean": "치즈",
+      "score": -10
+    },
+    {
+      "vocaindex": 262,
+      "englishVoca": "chop",
+      "koreanMean": "썰다",
+      "score": 10
+    },
+    {
+      "vocaindex": 263,
+      "englishVoca": "lunch",
+      "koreanMean": "점심",
+      "score": -10
+    },
+    {
+      "vocaindex": 264,
+      "englishVoca": "peach",
+      "koreanMean": "복숭아",
+      "score": -10
+    },
+    {
+      "vocaindex": 265,
+      "englishVoca": "thumb",
+      "koreanMean": "엄지 손가락",
+      "score": -10
+    },
+    {
+      "vocaindex": 266,
+      "englishVoca": "mouth",
+      "koreanMean": "입",
+      "score": -10
+    },
+    {
+      "vocaindex": 267,
+      "englishVoca": "this",
+      "koreanMean": "이것",
+      "score": -10
+    },
+    {
+      "vocaindex": 268,
+      "englishVoca": "that",
+      "koreanMean": "저것",
+      "score": -10
+    },
+    {
+      "vocaindex": 269,
+      "englishVoca": "white",
+      "koreanMean": "하얀",
+      "score": -10
+    },
+    {
+      "vocaindex": 270,
+      "englishVoca": "whale",
+      "koreanMean": "고래",
+      "score": -10
+    },
+    {
+      "vocaindex": 271,
+      "englishVoca": "wheel",
+      "koreanMean": "바퀴",
+      "score": -10
+    },
+    {
+      "vocaindex": 272,
+      "englishVoca": "whisper",
+      "koreanMean": "속삭이다",
+      "score": 10
+    },
+    {
+      "vocaindex": 273,
+      "englishVoca": "sing",
+      "koreanMean": "노래하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 274,
+      "englishVoca": "ring",
+      "koreanMean": "반지",
+      "score": -10
+    },
+    {
+      "vocaindex": 275,
+      "englishVoca": "wing",
+      "koreanMean": "날개",
+      "score": -10
+    },
+    {
+      "vocaindex": 276,
+      "englishVoca": "swing",
+      "koreanMean": "휙 움직이다(돌다)",
+      "score": 10
+    },
+    {
+      "vocaindex": 277,
+      "englishVoca": "pink",
+      "koreanMean": "분혹색",
+      "score": -10
+    },
+    {
+      "vocaindex": 278,
+      "englishVoca": "bank",
+      "koreanMean": "은행",
+      "score": -10
+    },
+    {
+      "vocaindex": 279,
+      "englishVoca": "wink",
+      "koreanMean": "윙크하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 280,
+      "englishVoca": "drink",
+      "koreanMean": "마시다",
+      "score": 10
+    },
+    {
+      "vocaindex": 281,
+      "englishVoca": "book",
+      "koreanMean": "책",
+      "score": -10
+    },
+    {
+      "vocaindex": 282,
+      "englishVoca": "cook",
+      "koreanMean": "요리하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 283,
+      "englishVoca": "room",
+      "koreanMean": "방",
+      "score": -10
+    },
+    {
+      "vocaindex": 284,
+      "englishVoca": "spoon",
+      "koreanMean": "숟가락",
+      "score": -10
+    },
+    {
+      "vocaindex": 285,
+      "englishVoca": "new",
+      "koreanMean": "새로운",
+      "score": -10
+    },
+    {
+      "vocaindex": 286,
+      "englishVoca": "stew",
+      "koreanMean": "찌개",
+      "score": -10
+    },
+    {
+      "vocaindex": 287,
+      "englishVoca": "chew",
+      "koreanMean": "씹다",
+      "score": 10
+    },
+    {
+      "vocaindex": 288,
+      "englishVoca": "coin",
+      "koreanMean": "동전",
+      "score": -10
+    },
+    {
+      "vocaindex": 289,
+      "englishVoca": "oil",
+      "koreanMean": "기름",
+      "score": -10
+    },
+    {
+      "vocaindex": 290,
+      "englishVoca": "boil",
+      "koreanMean": "끓이다",
+      "score": 10
+    },
+    {
+      "vocaindex": 291,
+      "englishVoca": "point",
+      "koreanMean": "가리키다",
+      "score": 10
+    },
+    {
+      "vocaindex": 292,
+      "englishVoca": "boy",
+      "koreanMean": "남자아이",
+      "score": -10
+    },
+    {
+      "vocaindex": 293,
+      "englishVoca": "toy",
+      "koreanMean": "장난감",
+      "score": -10
+    },
+    {
+      "vocaindex": 294,
+      "englishVoca": "enjoy",
+      "koreanMean": "즐기다",
+      "score": 10
+    },
+    {
+      "vocaindex": 295,
+      "englishVoca": "oyster",
+      "koreanMean": "굴",
+      "score": -10
+    },
+    {
+      "vocaindex": 296,
+      "englishVoca": "cow",
+      "koreanMean": "소",
+      "score": -10
+    },
+    {
+      "vocaindex": 297,
+      "englishVoca": "owl",
+      "koreanMean": "부엉이",
+      "score": -10
+    },
+    {
+      "vocaindex": 298,
+      "englishVoca": "brown",
+      "koreanMean": "갈색",
+      "score": -10
+    },
+    {
+      "vocaindex": 299,
+      "englishVoca": "down",
+      "koreanMean": "아래로",
+      "score": -10
+    },
+    {
+      "vocaindex": 300,
+      "englishVoca": "cloud",
+      "koreanMean": "구름",
+      "score": -10
+    },
+    {
+      "vocaindex": 301,
+      "englishVoca": "mouse",
+      "koreanMean": "쥐",
+      "score": -10
+    },
+    {
+      "vocaindex": 302,
+      "englishVoca": "count",
+      "koreanMean": "(숫자를)세다",
+      "score": 10
+    },
+    {
+      "vocaindex": 303,
+      "englishVoca": "house",
+      "koreanMean": "집",
+      "score": -10
+    },
+    {
+      "vocaindex": 304,
+      "englishVoca": "boxes",
+      "koreanMean": "상자들",
+      "score": -10
+    },
+    {
+      "vocaindex": 305,
+      "englishVoca": "fixes",
+      "koreanMean": "고치다",
+      "score": 10
+    },
+    {
+      "vocaindex": 306,
+      "englishVoca": "classes",
+      "koreanMean": "수업들",
+      "score": -10
+    },
+    {
+      "vocaindex": 307,
+      "englishVoca": "kisses",
+      "koreanMean": "키스하다",
+      "score": 10
+    },
+    {
+      "vocaindex": 308,
+      "englishVoca": "wishes",
+      "koreanMean": "바라다",
+      "score": 10
+    },
+    {
+      "vocaindex": 309,
+      "englishVoca": "brushes",
+      "koreanMean": "붓들",
+      "score": -10
+    },
+    {
+      "vocaindex": 310,
+      "englishVoca": "benches",
+      "koreanMean": "의자들",
+      "score": -10
+    },
+    {
+      "vocaindex": 311,
+      "englishVoca": "teaches",
+      "koreanMean": "가르치다",
+      "score": 10
+    }
+  ]
+}

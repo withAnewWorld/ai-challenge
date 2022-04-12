@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>getElement, querySelector</title>
+</head>
+<body>
+  <!-- <div id="elem">
+    <div id="elem-content">Element</div>
+  </div> -->
+
+  <!-- <ul>
+    <li>1-1</li>
+    <li>1-2</li>
+  </ul>
+
+  <ul>
+    <li>2-1</li>
+    <li>202</li> -->
+<!-- 
+    <a href="http://example.com/file.zip">...</a>
+    <a href="http://ya.ru">...</a> -->
+
+    <!-- <h1>목차</h1>
+
+    <div class="contents">
+      <ul class="book">
+        <li class="chapter">1장</li>
+        <li class="chapter">2장</li>
+      </ul>
+    </div>
+  </ul> -->
+  <form name="search"> 
+    <input type="text" placeholder="first">
+    <table id="age-table">
+      <label>label1</label>
+      <label>label2</label>
+      <label>label3</label>
+      <td id="age">age</td>
+    </table>
+    <input type="text" placeholder="last">
+  </form>
+  
+  <script>
+    // let elem=document.getElementById("elem");
+    // elem.style.background = 'red';
+
+    // elem.style.background ='red';
+
+    // let elem= 5;
+    // alert(elem); //5
+
+    // let elements = document.querySelectorAll('ul>li:last-child');
+
+    // for (let elem of elements){
+    //   alert(elem.innerHTML);
+    // }
+
+    // for (let elem of document.body.children){
+    //   if (elem.matches(`a[href$="zip"]`)){
+    //     alert("주어진 css선택자와 일치하는 요소: "+elem.href);
+    //   }
+    // }
+    
+    // let chapter = document.querySelector('.chapter');
+
+    // alert(chapter.closest('.book')); // ul
+    // alert(chapter.closest('.contents')); // div
+
+    // alert(chapter.closest('h1')); // null 부모 조상 x
+      // alert(document.querySelector('#age-table'));
+      // alert(document.querySelectorAll('#age-table label'));
+      // alert(document.querySelector('td'));
+      // alert(document.querySelector('form[name="search"]'));
+      // alert(document.querySelector('input'));
+      alert(document.querySelector('form>input:last-child'));
+
+  </script>
+</body>
+</html>

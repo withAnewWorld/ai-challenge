@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="button" onclick="openWin()" value="open">
+  <input type="text" onkeypress="interaction(this.value)">
+  <input type="button" onclick="closeWin()" value="close">
+
+  <script>
+    function openWin(){
+      win = window.open("demo.html", 'ot', 'width=300px, height=500px');
+    }
+    function interaction(msg){
+      win.document.getElementById("message").innerText=msg;
+      
+    }
+
+    function closeWin(){
+      win.close();
+    }
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <a id="target" href="http://google.com">google</a>
+  
+  
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+    let t= $('#target');
+    console.log(t.attr('href')); // http://google.com
+    
+    t.attr('title', 'google');
+    console.log(t.attr('title')); // google
+    
+    t.removeAttr('title');
+    console.log(t.attr('title')); // undefined
+  </script>
+</body>
+</html>

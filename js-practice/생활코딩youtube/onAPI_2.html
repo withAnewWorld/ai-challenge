@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" id="target">
+  <p id="status"></p>
+
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+    //다중등록
+
+
+    // $('#target').on('focus blur', function(e){
+    //   $('#status').html(e.type);
+    // })
+
+
+    let handler = function(e){
+      $('#status').html(e.type);
+    }
+    // $('#target').on(
+    //   {
+    //     'focus': handler,
+    //     'blur': handler
+    //   }
+    // )
+
+    $('#target').on('focus', handler).on('blur', handler);
+  </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>심볼형</title>
+</head>
+<body>
+    <script>
+      //심볼(symbol)
+      // let id1 = Symbol("id");
+      // let id2 = Symbol("id");
+      // alert(id1==id2); // false;
+      // alert(id1) // TypeError; Cannot cnvert a Symbol to a string
+      // alert(id.toString()); 
+      // alert(id.description);
+
+      //숨김 프로퍼티: 외부 코드에서 접근 불가능, 값 변경 x
+      // let user ={
+      //   name: "John"
+      // };
+
+      // let id = Symbol("id");
+
+      // user[id]=1;
+      // alert(user[id]);
+
+      //symbol의 존재 이유
+      //library등 user를 식별해야 하는 상황에서 유일성 보장
+      // let user ={name: "John"};
+      // user.id = "스크립트 id 값";
+
+      // user.id="제3 스크립트 id 값"; // 값이 변경 됨
+
+      //Symbols in a literal
+      // let id = Symbol("id");
+
+      // let user ={
+      //   name: "John",
+      //   [id]: 123 // "id": 123 불가, 문자열 key로 됨
+      // };
+      //심볼은 for..in에서 배제
+      // let id =Symbol("id");
+      // let user = {
+      //   name: "John",
+      //   age: 30,
+      //   [id]: 123
+      // };
+      // for (let key in user) alert(key); //name, age만 출력
+      // alert("직접 접근한 값:" + user[id]); // 작동
+
+      // let id = Symbol("id");
+      // let user ={
+      //   [id]: 123
+      // };
+
+      // let clone = Object.assign({}, user);
+      // alert(clone[id]); // 123
+
+      //전역 심볼(이름이 같은 심볼이 같은 개체를 가리키길 원하는 경우)
+      // let id = Symbol.for("id");
+      // let idAgain= Symbol.for("id");
+
+      // alert(id===idAgain); // true
+
+      //이름을 이용해 symbol을 찾음
+      // let sym = Symbol.for("name");
+      // let sym2=Symbol.for("id");
+
+      // //Symbol.keyFor: 전역 심볼을 찾는 키워드
+      // alert(Symbol.keyFor(sym)); //name
+      // alert(Symbol.keyFor(sym2)); // id
+
+      //일반 심볼의 경우 descritiption 프로퍼티 사용
+      // let globalSymbol = Symbol.for("name");
+      // let localSymbol = Symbol("name");
+      // alert(Symbol.keyFor(globalSymbol)); // name
+      // alert(Symbol.keyFor(localSymbol)); // undefined
+
+      // alert(localSymbol.description); // name
+
+
+
+    </script>
+</body>
+</html>

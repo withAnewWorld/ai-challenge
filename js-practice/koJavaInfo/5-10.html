@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구조 분해 할당</title>
+</head>
+<body>
+  <script>
+    //배열 분해하기
+    // let arr =["bora", "lee"];
+    // let [firstName, surName] = arr;
+    // alert(firstName); //bora
+    // alert(surName); // lee
+    // let user={
+    //   name: "John",
+    //   years: 30
+    // };
+    // let {name, years:age, isAdmin=false} = user;
+    // alert(name);
+    // alert(age);
+    // alert(isAdmin);
+    let salaries = {
+        "John": 100,
+        "Pete": 300,
+        "Mary": 250
+      };
+    max=0;
+    max_key=0;
+    for (let [k, v] of Object.entries(salaries)){
+      let [key, value] = [k, v];
+      if (max<value){
+        max=value;
+        max_key=key;
+      }
+    }
+    alert(max_key);
+  </script>
+</body>
+</html>

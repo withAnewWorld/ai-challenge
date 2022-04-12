@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <a id="target" href="http://google.com">google</a>
+  
+  <script>
+    let target = document.getElementById("target");
+    console.log(target.getAttribute("href")); // http://google.com    
+    
+    console.log(target.getAttribute('id')); // target
+    
+    target.setAttribute('href', 'http://naver.com');
+    console.log(target.getAttribute('href')); // http://naver.come
+
+    target.setAttribute('target', 'opentutorials');
+    console.log(target.getAttribute('target')); // opentutorials
+
+    target.removeAttribute('title');
+
+    target.hasAttribute('title') // false
+
+
+    // 속성방식
+    target.setAttribute('class', 'important');
+    //property 방식
+    target.className='important'
+    // ! 속성방식과 property 방식은 미묘하게 다른 값을 반환, 결과를 도출할 수 있음
+  </script>
+</body>
+</html>

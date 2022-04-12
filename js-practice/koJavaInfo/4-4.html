@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>메서드와 this</title>
+</head>
+<body>
+  <script>
+    let user={
+      name: "John",
+      age: 30
+    };
+    // case 1
+    // user.sayHi = function(){
+    //   alert("Hi!");
+    // };
+    // user.sayHi();
+
+    // case 2
+    // function sayHi(){
+    //   alert("Hi");
+    // };
+    // user.sayHi=sayHi;
+
+    // case 3
+    // user = {
+    //   sayHi: function(){
+    //     alert("Hi");
+    //   }
+    // };
+
+
+    // case 4
+    // user ={
+    //   sayHi(){
+    //     alert("Hi");
+    //   }
+    // };
+
+    //메서드와 this
+    // user={
+    //   name: "Jhon",
+    //   age: 30,
+      
+    //   sayHi() {
+    //     alert(this.name);
+    //   }
+
+    // };
+    // user.sayHi();
+
+    // 권장하지 않는 방법
+    // user={
+    //   name: "Jhon",
+    //   age: 30,
+      
+    //   sayHi() {
+    //     alert(user.name);
+    //   }
+
+    // };
+    // user.sayHi();
+
+    //예시
+    // user={
+    //   name: "Jhon",
+    //   age: 30,
+      
+    //   sayHi() {
+    //     // alert(user.name);
+    //     alert(this.name);
+    //   }
+
+    // };
+    // user.sayHi();
+
+    // let admin = user;
+    // user = null;
+    // admin.sayHi();
+
+    //자유로운 this
+    // user ={name:"John"};
+    // let admin = {name: "Admin"};
+
+    // function sayHi(){
+    //   alert(this.name);
+    // }
+
+    // user.f=sayHi;
+    // admin.f=sayHi;
+
+    // user.f();
+    // admin.f();
+
+    //this가 없는 화살표 함수
+    // user ={
+    //   firstName:"보라",
+    //   sayHi(){
+    //     let arrow = () => alert(this.firstName);
+    //     arrow();
+    //   }
+    // };
+    // user.sayHi();
+
+    //계산기 만들기
+    // let calculator ={
+    //   read(){
+    //     let int1=Number(prompt("input first integer",));
+    //     let int2=Number(prompt("input first integer",));
+    //     this.int1=int1;
+    //     this.int2=int2;
+    //   },
+      
+    //   sum(){
+    //     return this.int1+this.int2;
+    //   },
+
+    //   mul(){
+    //     return this.int1*this.int2;
+    //   }
+    // }
+
+    // calculator.read();
+    // alert(calculator.sum());
+    // alert(calculator.mul());
+
+    //체이닝
+    let ladder={
+      step: 0,
+      up() {
+        this.step++;
+        return this;
+      },
+      down(){
+        this.step--;
+        return this;
+      },
+      showStep: function(){
+        alert(this.step);
+        return this;
+      }
+    };
+    ladder
+      .up()
+      .down()
+      .showStep();
+
+    
+  </script>
+</body>
+</html>

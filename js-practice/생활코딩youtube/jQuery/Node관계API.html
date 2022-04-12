@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body id="start">
+  <ul>
+    <li><a href="./532">html</a></li>
+    <li><a href="./533">css</a></li>
+    <li><a href="./534">Javascript</a></li>
+      <ul>
+        <li><a href="./535">Javascript Core</a></li>  
+        <li><a href="./536">DOM</a></li>  
+        <li><a href="./537">BOM</a></li>    
+      </ul>
+  </ul>
+
+  <script>
+    let start = document.getElementById('start');
+    // start.firstChild //공백, 줄바꿈 data 포함
+    start.nodeType===1 // true
+    start.nodeType===Node.ELEMENT_NODE // true
+    start.nodeName // Body
+    start.firstChild.nodeName // #text
+    start.firstChild.nextSibling.nodeName //UL
+  </script>
+</body>
+</html>

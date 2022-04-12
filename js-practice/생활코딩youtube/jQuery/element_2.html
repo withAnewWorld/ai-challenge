@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<a id="anchor" href="http://google.com">google.com</a>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li id="list">JavaScript</li>
+  </ul>
+<input type="button" id="button" value="button">
+
+  <script>
+    let target=document.getElementById('list');
+    console.log(target.constructor.name);  //HTMLLIEment
+
+    target = document.getElementById('anchor');
+    console.log(target.constructor.name); //HTMLAnchorElement
+
+    target = document.getElementById('button');
+    console.log(target.constructor.name); //HTMLInputElement
+  </script>
+</body>
+</html>

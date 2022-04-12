@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object, keys, values, entries</title>
+</head>
+<body>
+  <script>
+    // let user ={
+    //   name: "Violet",
+    //   age: 30
+    // };
+
+  // alert(Object.keys(user)); // ["name", "age"]
+  // alert(Object.values(user)); // ["violet", 30]
+  // alert(Object.entries(user)); // [["name","violet","age","30"]]
+  
+  //과제
+  // function sumSalaries(obj){
+  //   result =0;
+  //   for (let value of Object.values(obj)){
+  //     result += value;
+  //   }
+  //   return result;
+  // } 
+  // let salaries={
+  //   "John": 100,
+  //   "Pete": 300,
+  //   "Mary": 250
+  // };
+  // alert( sumSalaries(salaries) );
+
+  function count(obj){
+    return Object.keys(obj).length;
+  }
+
+  let user={
+    name: "john",
+    age: 30
+  };
+
+  alert( count(user) );
+
+  </script>
+</body>
+</html>

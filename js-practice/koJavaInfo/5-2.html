@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>숫자형</title>
+</head>
+<body>
+  <script>
+    // let billiion = 1e9;
+
+    // n번째 소수점 처리
+    // case 1
+    // let num = 1.23456;
+    // alert(Math.floor(num*100)/100); // 123.456->123
+    // case 2
+    // let num=12.36;
+    // alert(num.toFixed(1))// 12.4
+
+    //부정확한 계산
+    // alert(0.1 + 0.2 == 0.3); //false
+    // alert(0.1 + 0.2); // 0.30000000000000004
+    //해결
+    // alert(+(0.1+0.2).toFixed(2)); //0.30->0.3
+
+    //문자가 섞인 숫자 string에서 숫자만 추출하는 방법
+    // alert(parseInt('100px')); // 100
+    // alert(parseFloat('12.5em')); // 12.5
+    // alert(parseInt('12.3')); //12
+    // alert(parseFloat('12.3.4')); // 12.3
+    // alert(parseInt('a123')); // nan
+    // alert(parseInt('0xff', 16))  // 255 (16진수 변환)
+
+    //과제
+    //수를 입력받아 덧셈하기
+    // let int_1=prompt("int 1: ",0);
+    // let int_2=prompt("int 2:",0);
+    // alert(+int_1 + +int_2);
+
+    // 6.35.toFixed(1) == 6.3인 이유는 무엇일까요?
+    // alert(1.35.toFixed(1)); // 1.4
+    // alert(6.35.toFixed(1)); // 6.3
+    
+    // alert((6.35/10).toFixed(2)*10);
+
+    //숫자를 입력할 때까지 반복하기
+    // function readNumber() {
+    //     let num;
+
+    //     do {
+    //       num = prompt("Enter a number please?", 0);
+    //     } while (!isFinite(num));
+
+    //     if (num === null || num === '') return null;
+
+    //     return +num;
+    //   }
+
+    //   alert(`Read: ${readNumber()}`);
+
+    //An occasional infinite loop
+    // let i =0;
+    // while (((i*10).toFixed(1))/10!=10){
+    //   i +=0.2;
+    //   alert(`i: ${i}`);
+    // }
+    
+  </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>속성과 프로퍼티</title>
+</head>
+<body >
+  <!-- <div id="elem" about="Elephant"></div> -->
+  <!-- <div show-info="name"></div>
+  <div show-info="age"></div> -->
+  <!-- <div data-widget-name="menu">Choose the genre</div> -->
+
+  <a name="list">the list</a>
+  <ul>
+    <li><a href="http://google.com">http://google.com</a></li>
+    <li><a href="/tutorial">/tutorial.html</a></li>
+    <li><a href="local/path">local/path</a></li>
+    <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+    <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+    <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+  </ul>
+  
+  
+   
+  
+  <script>
+    // document.body.MyData={
+    //   name: 'Caesar',
+    //   title: 'Imperator'
+    // }
+    // alert(document.body.MyData.title);
+    // document.body.sayTagName = function(){
+    //   alert(this.tagName);
+    // }
+
+    // document.body.sayTagName();
+
+    // Element.prototype.sayHi = function(){
+    //   alert(`Hello, I'm ${this.tagName}`);
+    // };
+
+    // document.documentElement.sayHi();
+    // document.body.sayHi();
+      // alert(document.body.getAttribute('something'));
+      // alert(elem.getAttribute("About"));
+      // elem.setAttribute('text', 123);
+      // alert(elem.outerHTML);
+      // for (let attr of elem.attributes){
+      //   alert(`${attr.name}=${attr.value}`);
+      // }
+
+      // let input = document.querySelecotr('input');
+
+      // input.setAttribute('id', 'id');
+      // alert(input.id) // id
+
+      // input.id = 'newId';
+      // alert(input.getAttribute('id')); //newId
+      // let user={
+      //   name: "pete",
+      //   age: 25
+      // };
+
+      // for (let div of document.querySelectorAll('[show-info]')){
+      //   let field = div.getAttribute('show-info');
+      //   div.innerHTML = user[field];
+      // }
+      // let target = document.querySelector('div');
+      // alert(target.dataset.widgetName);
+
+      // setting style for a single link
+      let link = document.querySelector('a');
+      let links = document.querySelectorAll('a');
+      for (let link of links){
+        if (link.textContent.includes('://') &&
+         !link.textContent.includes("http://internal.com")){
+           link.style.color='red';
+         }
+      }
+  </script>
+</body>
+</html>

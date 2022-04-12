@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스타일과 클래스</title>
+</head>
+<body>
+  <!-- <div class="main-page">div</div> -->
+  <!-- <div id="div">button</div> -->
+
+  <h2>Notification is on the right</h2>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum aspernatur quam ex eaque inventore quod voluptatem adipisci omnis nemo nulla fugit iste numquam ducimus cumque minima porro ea quidem maxime necessitatibus beatae labore soluta voluptatum
+    magnam consequatur sit laboriosam velit excepturi laborum sequi eos placeat et quia deleniti? Corrupti velit impedit autem et obcaecati fuga debitis nemo ratione iste veniam amet dicta hic ipsam unde cupiditate incidunt aut iure ipsum officiis soluta
+    temporibus. Tempore dicta ullam delectus numquam consectetur quisquam explicabo culpa excepturi placeat quo sequi molestias reprehenderit hic at nemo cumque voluptates quidem repellendus maiores unde earum molestiae ad.
+  </p>
+
+
+  <script>
+    // let mainPage = document.querySelector('.main-page'); //main-page
+    // mainPage.classList.add('article');
+    // // alert(mainPage.className); //main-page article
+
+    // // for (let name of mainPage.classList){
+    // //   alert(name);
+    // // }
+    // // mainPage.style.backgroundColor=
+    // // prompt("What do you want to change the background color?", "");
+    // mainPage.style.display ="none";
+    // setTimeout(()=>mainPage.style.display="", 1000);
+
+    // div.style.cssText=`color: red !important;
+    //   background-color: yellow;
+    //   width: 100px;
+    //   text-align: center;
+    // `;
+    // alert(div.style.cssText);
+    
+    // document.body.style.cssText=`
+    //   color: red;
+    //   margin: 5px;
+    // `;
+
+    // let computedStyle = getComputedStyle(document.body);
+
+    // alert(computedStyle.marginTop);
+    // alert(computedStyle.color);
+
+    // document.body.style.cssText=`
+    //   margin: 10px;
+    // `;
+
+    // let style = getComputedStyle(document.body);
+    // alert(style.margin);
+
+  
+    //과제
+
+
+    function showNotification({top = 0, right = 0, className, html}) {
+      
+      let notification = document.createElement("div");
+      notification.className="notification";
+      notification.classList.add(className);
+      notification.textContent=html;
+      notification.style.top= "10px";
+      notification.style.right= "10px";
+      document.body.append(notification);
+    }
+
+    // test it
+    let i = 1;
+    setInterval(() => {
+      showNotification({
+        top: 10,
+        right: 10,
+        html: 'Hello ' + i++,
+        className: "welcome"
+      });
+    }, 2000);
+  </script>
+</body>
+</html>

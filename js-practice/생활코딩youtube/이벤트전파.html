@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    html{
+      border: 5px solid red;
+    }
+    body{
+      border: 5px solid green;
+    }
+    fieldset{
+      border: 5px solid blue;
+    }
+    input{
+      border: 5px solid black;
+    }
+
+    html,
+    body,
+    fieldset,
+    input{
+      padding: 30px;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend>event propagation</legend>
+    <input type="button" id="target" value="target">
+  </fieldset>
+  
+  <script>
+    function handler(event){
+      let phases=['capturing', 'target', 'bubbling'];
+      console.log(event.target.nodeName, this.nodeName, phases[event.eventPhase-1]);
+    }
+    function stopHandler(event){
+      let phases=['capturing', 'target', 'bubbling'];
+      console.log(event.target.nodeName, this.nodeName, phases[event.eventPhase-1]);
+      event.stopPropagation();
+    }
+    //capturing
+    // document.getElementById('target').addEventListener('click', handler, true);
+    // document.querySelector('fieldset').addEventListener('click', handler, true);
+    // document.querySelector('body').addEventListener('click', handler, true);
+    // document.querySelector('html').addEventListener('click', handler, true);
+
+    //bubbling
+    document.getElementById('target').addEventListener('click', handler, false);
+    document.querySelector('fieldset').addEventListener('click', handler, false);
+    document.querySelector('body').addEventListener('click', handler, false);
+    document.querySelector('html').addEventListener('click', handler, false);
+
+    //body에서 전파 멈추고 싶을 때
+    document.querySelector('body').addEventListener('click', stopHandler, false);
+  </script>
+</body>
+</html>

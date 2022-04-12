@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul id="target">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li id="remove">JavaScript</li>
+    <li id="replace">programming</li>
+  </ul>
+  <input type="button" onclick="callAppendChild()" value="appendChild()">
+  <input type="button" onclick="callInsertBefore()" value="callInsertBefore()">
+  <input type="button" onclick="callRemoveChild()" value="callRemoveChild()">
+  <input type="button" onclick="callReplaceChild()" value="callReplaceChild()">
+  <script>
+
+    //추가
+    function callAppendChild(){
+      let target = document.getElementById('target');
+      let li = document.createElement('li');
+      let text = document.createTextNode('JavaScript');
+      li.appendChild(text);
+      target.appendChild(li);
+    }
+
+    function callInsertBefore(){
+      let target = document.getElementById('target');
+      let li =document.createElement('li');
+      let text= document.createTextNode('jQuery');
+      li.appendChild(text);
+      target.insertBefore(li, target.firstChild);
+    }
+
+    //제거
+    function callRemoveChild(){
+      let remove=document.getElementById('remove');
+      remove.parentNode.removeChild(remove);
+    }
+
+    //변경
+    function callReplaceChild(){
+      let a = document.createElement('a');
+      a.setAttribute('href', 'http://google.com');
+      a.appendChild(document.createTextNode("google"));
+      let replace = document.getElementById("replace");
+      replace.replaceChild(a, replace.firstChild);
+    }
+  </script>
+</body>
+</html>

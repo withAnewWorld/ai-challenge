@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li>HTML</li>
+    <li id="active">css</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <ol>
+    <li>HTML</li>
+    <li class="active">css</li>
+    <li>JavaScript</li>
+  </ol>
+
+  <script>
+    // let li_1 = document.querySelector('li');
+    // li_1.style.color='red';
+    // let li_2= document.querySelector('.active');
+    // li_2.style.color='blue';
+
+    let lis = document.querySelectorAll('li');
+    for (let name in lis){
+      lis[name].style.color='blue';
+    }
+  </script>
+</body>
+</html>

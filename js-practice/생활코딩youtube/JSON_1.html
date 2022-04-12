@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="timezones"></p>
+  <input type="button" id="execute" value="execute">
+
+  <script>
+    //JSON의 필요성
+    //통신하는 서버, 프론트간의 언어가 다름으로써 생기는 자료형 문법이 달라짐
+    //이에 따라 형변환을 자주 하게 되는데 컴퓨터 자원 남용, 코드가 복잡해지는 이슈 발생
+
+    document.querySelector('input').addEventListner('click', function(){
+      let xhr = new XMLHttpRequest();
+      xhr.open('GET', './time.php');
+      xhr.onreadystatechange=function(){
+        if(xhr.readyState===4 && xhr.status ===200){
+          let _tzs = xhr.responseText;
+          //let tzs=_tzs.split(',');
+          let tzs = JSON.parse(_tzs);
+          for(let i=0; i<tzs.length; i++){
+            _str+='<li>'+tzs[i]+ '</li>';
+          }
+          _str = '<ul>'+ str+ '</ul>';
+          document.querySelector('#timezones').innerHTML = _str;
+        }
+      }
+      xhr.send();
+    });
+
+  </script>
+</body>
+</html>
