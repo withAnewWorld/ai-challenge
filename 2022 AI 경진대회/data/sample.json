@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "file_name": "20201102_경기도_-_-_맑음_주간_실외_right_000005_0087981.png",
+      "license": null,
+      "coco_url": null,
+      "height": 1080,
+      "width": 1920,
+      "data_captured": "20201102",
+      "flickr_url": null,
+      "id": 19334
+    },
+    {
+      "file_name": "20201102_경기도_-_-_맑음_주간_실외_right_000005_0100610.png",
+      "license": null,
+      "coco_url": null,
+      "height": 1080,
+      "width": 1920,
+      "data_captured": "20201102",
+      "flickr_url": null,
+      "id": 5662
+    }
+  ]
+}
